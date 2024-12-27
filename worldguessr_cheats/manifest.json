@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "WorldGuessr Cheats",
+  "version": "1.0",
+  "description": "Gives you cheats on WorldGuessr",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "earth.png",
+      "48": "earth.png",
+      "128": "earth.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.worldguessr.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
