@@ -40,4 +40,4 @@ function openPopup(link) {
             window.open(link, "popupWindow", "width=600,height=400,scrollbars=yes");
 }
 
-document.body.append(button);
+document.appendChild(button);
