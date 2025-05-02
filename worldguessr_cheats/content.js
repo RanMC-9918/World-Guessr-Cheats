@@ -41,3 +41,8 @@ function openPopup(link) {
 }
 
 document.body.appendChild(button);
+
+const evade = document.getElementById("evade");
+evade.addEventListener("click", () => {
+  localStorage.setItem("bannedr", false);
+});
