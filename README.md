@@ -4,7 +4,7 @@
   <li>Go to extensions manager (chrome://extensions/) for chrome</li>
   <li>Turn on developer mode (top right on chrome)</li>
   <li>Click <b>load unpacked</b></li>
-  <li>Select the folder</li>
+  <li>Select the folder called <b>worldguessr_cheats</b></li>
   <li>Go to <a href="https://www.worldguessr.com/">worldguessr.com</a></li>
   <li>Click <b>Find Location</b> when map loads in</li>
 </ol>
